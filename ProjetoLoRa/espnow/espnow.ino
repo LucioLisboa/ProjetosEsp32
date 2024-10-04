@@ -1,11 +1,19 @@
-
-//codigo do mestre
 /*
   Rui Santos & Sara Santos - Random Nerd Tutorials
   Complete project details at https://RandomNerdTutorials.com/esp-now-esp32-arduino-ide/
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.
   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      EXISTEM DOIS CODIGOS EMBUTIDOS NESSA SKETCH
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ Tanto o codigo do master quanto do slave estao presente
+ o codigo do mestre esta comentado no inicio e o do 
+ slave esta no final
+*/
+
+//codigo do mestre
 /*
 #include <esp_now.h>
 #include <WiFi.h>

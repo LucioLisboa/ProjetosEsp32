@@ -8,6 +8,19 @@
  This example code is in the public domain.
  */
 
+ /*
+    Codigo de interrupção disponivel no site da expressif
+    https://docs.espressif.com/projects/arduino-esp32/en/latest/api/timer.html
+    Recomendo leitura dos documentos para entender como ele funciona
+    OBS: problemas em usar multiplos timers do esp, só consegui usar um
+    tentar usa outros disponiveis depois
+    Outros codigos disponiveis na internet usam biblioteca obsoleta e
+    não funcionam
+    Interrupção com timers sao boas opções para realizar tarefas
+    em um momento certo sem ter que usar delays e parar o
+    microprocessador por tempos prolongados
+ */
+
 // Stop button is attached to PIN 0 (IO0)
 #define BTN_STOP_ALARM 0
 

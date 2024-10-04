@@ -3,6 +3,11 @@
   Complete project details at https://RandomNerdTutorials.com  
 *********/
 
+/*
+  Codigo para receber a temperatura de um sensor DS18B20 por
+  meio de um Esp32
+*/
+
 #include <OneWire.h>
 #include <DallasTemperature.h>
 

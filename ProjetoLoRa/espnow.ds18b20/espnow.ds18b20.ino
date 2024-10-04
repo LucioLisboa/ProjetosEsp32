@@ -1,3 +1,13 @@
+/*
+//////////////////////////////////////////////////////////////////////
+        EXISTEM DOIS CODIGO EMBUTIDOS NESSA SKETCH
+//////////////////////////////////////////////////////////////////////
+codigo do master no inicio
+codigo do slave comentado no final
+faz a leitura da temperatura do DS18B20 no master e transmite
+para o slave 
+*/
+
 //codigo do mestre
 
 #include <OneWire.h>
